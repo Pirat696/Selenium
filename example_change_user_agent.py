@@ -25,7 +25,6 @@ for i in user_agent_list:
 
     try:
         browser.get(url=url)
-        browser.get_screenshot_as_png()
         time.sleep(5)
     except Exception as e:
         print(e)
